@@ -9,7 +9,7 @@ function js(src)
 }
 
 js('calculator/calculator');
-js('chem');
+js('chemistry/chemistry');
 js('panel');
 
 window.onload = function()
