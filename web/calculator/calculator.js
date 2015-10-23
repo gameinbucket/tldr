@@ -10,12 +10,12 @@ calc.POWER = 6;
 calc.NUMBER = 7;
 calc.FRAC = 8;
 
-js('calc-tokenize');
-js('calc-process');
-js('calc-simplify');
-js('calc-reduce');
-js('calc-distribute');
-js('calc-balance');
+js('calculator/tokenize');
+js('calculator/process');
+js('calculator/simplify');
+js('calculator/reduce');
+js('calculator/distribute');
+js('calculator/balance');
 
 calc.solve = function(input)
 {
