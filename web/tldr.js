@@ -165,10 +165,10 @@ function analyze(input)
 {
     var out;
 
-    out = calc.solve(input);
-    if (out) return out;
-
     out = chem.solve(input);
+    if (out) return out;
+    
+    out = calc.solve(input);
     if (out) return out;
     
     return null;
