@@ -8,7 +8,7 @@ function js(src)
     document.head.appendChild(script);
 }
 
-js('calc');
+js('calculator/calculator');
 js('chem');
 js('panel');
 
