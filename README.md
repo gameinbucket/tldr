@@ -1,14 +1,13 @@
-# tldr
-short descriptions on everything
+tldr
 ==============
 *focusing on mathematics, chemistry, and everyday essentials*
 --------------
 
 **work in progress:**
--periodic table looking element box for chemistry table
--calculator
---algebra
---calculus
++periodic table looking element box for chemistry table
++calculator
++algebra
++calculus
 
 **to do:**
 -context menu for panels
