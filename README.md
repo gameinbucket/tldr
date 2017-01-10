@@ -3,6 +3,8 @@ tldr
 *focusing on mathematics, chemistry, and everyday essentials*
 --------------
 
+a tool aimed to provide answers to common questions and calculations through a simple interface in a browser tab
+
 **work in progress:**
 +periodic table looking element box for chemistry table
 +calculator
