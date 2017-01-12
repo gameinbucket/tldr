@@ -1,4 +1,4 @@
-tldr
+sticky note questions
 ==============
 *focusing on mathematics, chemistry, and everyday essentials*
 --------------
