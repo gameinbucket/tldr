@@ -10,12 +10,12 @@ calc.POWER = 6;
 calc.NUMBER = 7;
 calc.FRAC = 8;
 
-js('calculator/tokenize');
-js('calculator/process');
-js('calculator/simplify');
-js('calculator/reduce');
-js('calculator/distribute');
-js('calculator/balance');
+js('calc-tokenize');
+js('calc-process');
+js('calc-simplify');
+js('calc-reduce');
+js('calc-distribute');
+js('calc-balance');
 
 calc.solve = function(input)
 {
@@ -180,7 +180,7 @@ calc.print_tok = function(tok)
 
 calc.isdigit = function(c)
 {
-    if (c == ' ') return false;
+    if (c === ' ') return false;
     return !isNaN(Number(c));
 };
 
@@ -220,14 +220,14 @@ number.prototype.print = function()
 
     if (this.exponent)
     {
-        if (this.value != 1)
+        if (this.value !== 1)
         {
             out += '<mn>' + this.value + '</mn>';
         }
 
         for (var key in this.exponent)
         {
-            if (this.exponent[key] == 1)
+            if (this.exponent[key] === 1)
             {
                 out += '<mi>' + key + '</mi>';
             }

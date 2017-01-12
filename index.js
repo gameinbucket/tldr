@@ -8,8 +8,8 @@ function js(src)
     document.head.appendChild(script);
 }
 
-js('calculator/calculator');
-js('chemistry/chemistry');
+js('calc-calculator');
+js('chemistry');
 js('panel');
 
 window.onload = function()
@@ -59,13 +59,13 @@ window.onload = function()
 
         id++;
     }
-}
+};
 
 window.onunload = function()
 {
     for (var i = 0; i < panels.list.length; i++)
         localStorage.setItem('panel[' + i + ']', panels.list[i].plain);
-}
+};
 
 function mousedown(e)
 {
@@ -130,7 +130,7 @@ function picture_uploaded(e)
         display.style.backgroundImage = 'url(' + e.target.result + ')';
 
         localStorage.setItem('main-background-image', e.target.result);
-    }
+    };
     
     reader.readAsDataURL(e.target.files[0]);
 
