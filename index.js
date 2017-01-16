@@ -32,14 +32,9 @@ window.onload = function()
     if (background)
     {
         display.style.backgroundRepeat = 'no-repeat';
-        // display.style.backgroundRepeat = 'repeat';
         display.style.backgroundPosition = 'center center';
-        // display.style.backgroundPosition = 'top left';
         display.style.backgroundSize = 'auto';
-        // display.style.backgroundSize = 'cover';
-        // display.style.backgroundSize = 'contain';
         display.style.backgroundImage = 'url(' + background + ')';
-
         display.style.backgroundColor = 'rgb(255, 255, 255)';
     }
 

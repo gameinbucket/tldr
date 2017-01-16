@@ -15,8 +15,8 @@ calc.balance = function(tokens)
         var pre = i > 0 ? left[i - 1] : null;
         var nex = i + 1 < left.length ? left[i + 1] : null;
 
-        if (pre != null && pre.type !== calc.PLUS) continue;
-        if (nex != null && nex.type !== calc.PLUS) continue;
+        if (pre !== null && pre.type !== calc.PLUS) continue;
+        if (nex !== null && nex.type !== calc.PLUS) continue;
 
         tok.value *= -1;
 
@@ -41,8 +41,8 @@ calc.balance = function(tokens)
         var pre = i > 0 ? right[i - 1] : null;
         var nex = i + 1 < right.length ? right[i + 1] : null;
 
-        if (pre != null && pre.type !== calc.PLUS) continue;
-        if (nex != null && nex.type !== calc.PLUS) continue;
+        if (pre !== null && pre.type !== calc.PLUS) continue;
+        if (nex !== null && nex.type !== calc.PLUS) continue;
 
         tok.value *= -1;
 
